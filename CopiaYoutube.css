@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#logo {
+    width: 150px;
+}
+
+#profilepic {
+    width: 30px;
+}
+
+.Contenido {
+    display: grid;
+    grid-template-columns: 7% 93%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.recomendaciones {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    padding: 7px 12px;
+}
+
+.recomendaciones p{
+    background-color: grey;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+
+.ContenidoDerecha{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Videos {
+    display: flex;
+    flex-direction: column; 
+    gap: 12px;
+    padding: 5px 15px;
+}
+
+.fila {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 15px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Info {
+    display: grid;
+    grid-template-columns: 8% 88%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#perfil {
+    width: 30px;
+    border-radius: 50px;
+}
+
+.columna h2 {
+    font-size: 17px;
+}
+
+.fila2 {
+    display: grid;
+    grid-template-columns: repeat(4,312px);
+    gap: 10px;
+}
+
+.recomendaciones button{
+    background-color: #2e2d2d;
+    color: white;
+    border-radius: 10px;
+    width: 40%;
+    height: 35px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.Busqueda {
+   display: flex;
+   align-items: center;
+}
+
+.Barra {
+    display: flex;  
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    border: 1px solid rgb(71, 67, 68);
+    height: 38px;
+    width: 520px;
+    border-right: none;
+    border-radius: 40px 0px 0px 40px;
+    background: none;
+    background-color: #0f0f0f0f;
+    color: white;
+}
+
+input {
+    padding: 0 15px;
+    background: none;
+}
+
+.lupa {
+    display: flex;
+    align-items: center;
+}
+
+.microfono{
+    display: flex;
+    align-items: center;
+}
+
+#lupa {
+    height: 37px;
+    width: 60px;
+    border: 1px rgb(71, 67, 68) solid;
+    border-left: none;
+    border-radius: 0px 40px 40px 0px;
+    color: white;
+    background: none;
+    background-color: #373535;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#microfono {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.subir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subir {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.campana {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#campana {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.Barra {
+    display: flex;
+    flex-direction: row;
+}
+
+.barra1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
